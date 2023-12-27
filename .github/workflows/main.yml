@@ -51,7 +51,6 @@ jobs:
         python -m flake8 backend/
         cd backend/
         python manage.py test
-
   build_and _push_to_docker_hub:
     name: Push Doker image to DokerHub
     runs-on: ubuntu-latest
